@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-22T19:21:56 IST" name="Suite" finished-at="2024-10-22T19:22:43 IST" duration-ms="46438">
+    <groups>
+    </groups>
+    <test started-at="2024-10-22T19:21:56 IST" name="Test" finished-at="2024-10-22T19:22:43 IST" duration-ms="46438">
+      <class name="tests.AmazonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:21:56 IST" name="setUp" finished-at="2024-10-22T19:22:03 IST" duration-ms="6566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchNonExistingProduct()[pri:1, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:03 IST" name="testSearchNonExistingProduct" finished-at="2024-10-22T19:22:09 IST" duration-ms="6401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchNonExistingProduct -->
+        <test-method signature="testSearchExistingProduct()[pri:2, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:09 IST" name="testSearchExistingProduct" finished-at="2024-10-22T19:22:13 IST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchExistingProduct -->
+        <test-method signature="testAddProductToCart()[pri:3, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:13 IST" name="testAddProductToCart" finished-at="2024-10-22T19:22:33 IST" duration-ms="19452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method signature="testUpdateCartQuantity()[pri:4, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:33 IST" name="testUpdateCartQuantity" finished-at="2024-10-22T19:22:39 IST" duration-ms="6307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateCartQuantity -->
+        <test-method signature="testRemoveProductFromCart()[pri:5, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:39 IST" name="testRemoveProductFromCart" finished-at="2024-10-22T19:22:42 IST" duration-ms="3653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonTest@47eaca72]" started-at="2024-10-22T19:22:42 IST" name="tearDown" finished-at="2024-10-22T19:22:43 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
